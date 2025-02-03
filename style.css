@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /* Rectangle 1 */
+
+  width: 1920px;
+  height: 90px;
+
+  background: #02002f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > a {
+  /* Ciekawostki */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.UCL {
+  height: 1000px;
+  width: 100%;
+}
+.milan {
+  width: 225px;
+  height: 183px;
+}
+.bayern {
+  width: 409px;
+  height: 225px;
+}
+.ciekawostki {
+  display: flex;
+  font-size: 24px;
+}
+.left {
+  width: 60%;
+  margin: 0px 20px;
+}
+
+.left-1 > h2 {
+  font-size: 36px;
+}
+.tekst {
+  text-align: center;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.info-right {
+  text-align: center;
+}
+p {
+  font-size: 24px;
+}
